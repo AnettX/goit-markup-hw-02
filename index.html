@@ -4,62 +4,88 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="/">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+    <header class="header">
+      <nav class="header-navigation">
+        <a class="header-logo" href="./index.html"
+          ><span class="header-logo-blue">Web</span>Studio</a
+        >
+        <ul class="header-menu">
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="/">Studio</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <address class="header-soc">
+        <ul class="header-soc-list">
+          <li class="header-soc-item">
+            <a class="header-soc-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <li class="header-soc-item">
+            <a class="header-soc-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
     <main>
       <!-- Section 1 - Head -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="head">
+        <h1 class="head-title">Effective Solutions for Your Business</h1>
+        <button class="head-order-btn" type="button">Order Service</button>
       </section>
       <!-- Section 2 - Benefits-->
-      <section>
-        <h2 hidden>Our benefits</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+      <section class="benefits">
+        <h2 class="visually-hidden">Our benefits</h2>
+        <ul class="benefits-list">
+          <li class="benefits-item">
+            <h3 class="benefits-subtitle">Strategy</h3>
+            <p class="benefits-item-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="benefits-item">
+            <h3 class="benefits-subtitle">Punctuality</h3>
+            <p class="benefits-item-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="benefits-item">
+            <h3 class="benefits-subtitle">Diligence</h3>
+            <p class="benefits-item-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="benefits-item">
+            <h3 class="benefits-subtitle">Technologies</h3>
+            <p class="benefits-item-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -109,6 +135,79 @@
             />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <!-- Section 5 - Our portfolio -->
+      <section>
+        <h2>Our portfolio</h2>
+        <!-- Portfolio links -->
+        <ul>
+          <!-- Portfolio link - Banking App -->
+          <li>
+            <a href="#">
+              <img
+                src="./images/portfolio/banking_app_interface_concept.jpg"
+                alt="Web site 'Banking App Interface Concept'"
+              />
+              <h3>Banking App Interface Concept</h3>
+              <p>App</p>
+            </a>
+          </li>
+          <!-- Portfolio link - Cashless Payment -->
+          <li>
+            <a href="#">
+              <img
+                src="./images/portfolio/cashless_payment.jpg"
+                alt="Web site 'Cashless Payment'"
+              />
+              <h3>Cashless Payment</h3>
+              <p>Marketing</p>
+            </a>
+          </li>
+          <!-- Portfolio link - Meditation App -->
+          <li>
+            <a href="#">
+              <img
+                src="./images/portfolio/meditation_app.jpg"
+                alt="Web site 'Meditation App'"
+              />
+              <h3>Meditation App</h3>
+              <p>App</p>
+            </a>
+          </li>
+          <!-- Porfolio link - Taxi Service -->
+          <li>
+            <a href="#">
+              <img
+                src="./images/portfolio/taxi_service.jpg"
+                alt="Web site 'Taxi Service'"
+              />
+              <h3>Taxi Service</h3>
+              <p>Marketing</p>
+            </a>
+          </li>
+          <!-- Portfolio link - Screen Illustrations -->
+          <li>
+            <a href="#">
+              <img
+                src="./images/portfolio/screen_illustrations.jpg"
+                alt="Web site 'Screen Illustrations'"
+              />
+              <h3>Screen Illustrations</h3>
+              <p>Design</p>
+            </a>
+          </li>
+          <!-- Portfolio link - Online Courses -->
+          <li>
+            <a href="#">
+              <img
+                src="./images/portfolio/online_courses.jpg"
+                alt="Web site 'Online Courses'"
+              />
+              <h3>Online Courses</h3>
+              <p>Marketing</p>
+            </a>
           </li>
         </ul>
       </section>
