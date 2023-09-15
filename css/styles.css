@@ -34,8 +34,8 @@ ul {
   flex-shrink: 0;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17; /* 21/18 */
-  letter-spacing: 0.03em; /* 0.54/18 */
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--NAVY-BLUE, #2e2f42);
 }
@@ -48,8 +48,15 @@ ul {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 24/16 */
-  letter-spacing: 0.02em; /* 0.32/16 */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-menu-link:active {
+  color: #404BBF;
+  text-decoration:underline;
 }
 
 .header-soc-link {
@@ -61,16 +68,22 @@ line-height: 1.5
 letter-spacing: 0.02em; /* 0.32/16 */
 }
 
+.header-soc-link:hover,
+.header-soc-link:focus,
+.header-soc-link:active {
+  color: #404BBF;
+}
+
 /* =================== Section 1 - Head ====================== */
 
 .head {
   background-color: var(--NAVY-BLUE, #2E2F42);
   color: #ffffff;
+  text-align: center;
 }
 
 .head-title {
 color: inherit;
-text-align: center;
 font-family: inherit;
 font-size: 56px;
 font-weight: 700;
@@ -83,6 +96,11 @@ letter-spacing: 0.02em;
 .head-order-btn {
   background-color: #4D5AE5;
   color: #ffffff;
+}
+
+.head-order-btn:hover {
+  background-color: #404BBF;
+  cursor: pointer;
 }
 
 .head-btn-text {
