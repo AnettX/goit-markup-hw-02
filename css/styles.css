@@ -12,36 +12,23 @@ ul {
   list-style-type: none;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+.header-soc {
+font-style: normal;
 }
 
 .header-logo {
-  display: inline-flex;
-  font-family: Raleway;
-  height: 24px;
-  align-items: center;
+  font-family: 'Raleway', sans-serif;
   flex-shrink: 0;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #4d5ae5;
 }
 
-.header-logo-blue {
-  color: var(--IRIS, #4d5ae5);
+.header-logo-studio {
+  color: #2E2F42;
 }
 
 .header-menu-link {
@@ -85,19 +72,20 @@ letter-spacing: 0.02em;
 .head-order-btn {
   background-color: #4D5AE5;
   color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
-.head-order-btn:hover {
+.head-order-btn:hover
+.head-order-btn:focus {
   background-color: #404BBF;
-  cursor: pointer;
 }
 
 .head-btn-text {
   color: inherit;
 font-size: 16px;
 font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.04em;
 }
 
 /* =================== Section 2 - Benefits ====================== */
@@ -159,7 +147,7 @@ letter-spacing: 0.02em;
 }
 
 /* =================== Section 1-4 - Style fot item-text ====================== */
-.item-text {
+.i {
 color:#434455;
 font-size: 16px;
 line-height: 1.5;
@@ -173,8 +161,8 @@ letter-spacing: 0.02em;
 }
 
 .footer-link-logo {
-  color: var(--CLOUD, #F4F4FD);
-font-family: Raleway;
+  color: #4D5AE5; 
+font-family: 'Raleway', sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -184,7 +172,7 @@ text-transform: uppercase;
 }
 
 .footer-logo-text {
-  color: var(--IRIS, #4D5AE5);
+  color: #F4F4FD;
 }
 
 .footer-text {
