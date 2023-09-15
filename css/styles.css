@@ -13,7 +13,7 @@ ul {
 }
 
 .header-soc {
-font-style: normal;
+  font-style: normal;
 }
 
 .header-logo {
@@ -28,7 +28,7 @@ font-style: normal;
 }
 
 .header-logo-studio {
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
 .header-menu-link {
@@ -40,77 +40,77 @@ font-style: normal;
 }
 
 .header-soc-link {
-color: inherit;
-font-size: 16px;
-font-style: normal;
-line-height: 1.5
-letter-spacing: 0.02em;
+  color: inherit;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .active:hover,
 .active:focus {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 /* =================== Section 1 - Head ====================== */
 
 .head {
-  background-color: var(--NAVY-BLUE, #2E2F42);
+  background-color: var(--NAVY-BLUE, #2e2f42);
   color: #ffffff;
   text-align: center;
 }
 
 .head-title {
-color: inherit;
-font-family: inherit;
-font-size: 56px;
-font-weight: 700;
-line-height: 1.07;
-letter-spacing: 0.02em;
+  color: inherit;
+  font-family: inherit;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .head-order-btn {
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   color: #ffffff;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
 
-.head-order-btn:hover
+.head-order-btn:hover,
 .head-order-btn:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .head-btn-text {
   color: inherit;
-font-size: 16px;
-font-weight: 500;
+  font-size: 16px;
 }
 
 /* =================== Section 2 - Benefits ====================== */
 
 .benefits-subtitle {
-  color: var(--NAVY-BLUE, #2E2F42);
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* =================== Section 3 - Our team ====================== */
 
 .team {
-  background-color: var(--CLOUD, #F4F4FD);
+  background-color: var(--CLOUD, #f4f4fd);
 }
 .team-title {
-  color: var(--NAVY-BLUE, #2E2F42);
-text-align: center;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .team-item {
@@ -118,66 +118,65 @@ text-transform: capitalize;
 }
 
 .team-subtitle {
-color: var(--NAVY-BLUE, #2E2F42);
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
-
 
 /* =================== Section 4 - Portfolio ====================== */
 
-.portfolio-title{
-  color: var(--NAVY-BLUE, #2E2F42);
-text-align: center;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+.portfolio-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .portfolio-subtitle {
-  color: var(--NAVY-BLUE, #2E2F42);
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* =================== Section 1-4 - Style fot item-text ====================== */
-.i {
-color:#434455;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+.item-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* =================== FOOTER ====================== */
 
 .footer {
-  background-color: #2E2F42;
+  background-color: #2e2f42;
 }
 
 .footer-link-logo {
-  color: #4D5AE5; 
-font-family: 'Raleway', sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .footer-logo-text {
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
 
 .footer-text {
-  color: var(--CLOUD, #F4F4FD);
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  color: var(--CLOUD, #f4f4fd);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
